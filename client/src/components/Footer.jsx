@@ -10,24 +10,18 @@ function Footer(){
     return(
         <footer className="bg-gray-800 py-6">
 
-        <div>
-            {/*  className=" w-full lg:w-7xl mx-auto px-4 text-center" */}
-          <div >
-            {/* className="flex flex-wrap items-center justify-between" */}
-            <div >
-                {/* className="w-full" */}
-              <h4>
-                {/*  className="text-3xl text-white font-semibold text-center" */}
+        <div className=" w-full lg:w-7xl mx-auto px-4 text-center">
+          <div className="flex flex-wrap items-center justify-between">
+            <div className="w-full">
+              <h4 className="text-3xl text-white font-semibold text-center">
                 Let's keep in touch!
               </h4>
-              <h5 >
-              {/* className="text-lg mt-0 mb-2 text-gray-400" */}
+              <h5 className="text-lg mt-0 mb-2 text-gray-400">
                 Reach us on any of these platforms, we respond 1-2 business days.
               </h5>
             </div>
-            <div >
-                {/* className=" w-full px-8 text-center" */}
-              <ul>
+            <div className=" w-full px-8 text-center">
+              <ul className="flex flex-wrap list-none pl-0 mb-0 justify-center text-center">
                 <li className="nav-item">
                   <NavLink to="#"
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"

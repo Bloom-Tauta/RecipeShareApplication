@@ -17,7 +17,7 @@ function Footer(){
                 Let's keep in touch!
               </h4>
               <h5 className="text-lg mt-0 mb-2 text-gray-400">
-                Reach us on any of these platforms, we respond 1-2 business days.
+                Reach us on any of these platforms.
               </h5>
             </div>
             <div className=" w-full px-8 text-center">
@@ -55,7 +55,7 @@ function Footer(){
           <div className="w-full lg:w-4/12 px-4">
               <div className="flex flex-row items-center text-lg text-left text-gray-500 gap-2 font-semibold py-1">
                         <MdCopyright/>
-                        <span className="text-white">2023 Mapishi Share</span>
+                        <span className="text-white">2023 Recipe-Share</span>
                     </div>
               </div>
             <div className=" lg:w-8/12 px-4 ">

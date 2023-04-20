@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom";
 import Search from "./Search";
 
 
-function NavBar(){
+function NavBar({search, handleSearch}){
     return(
         <div className="bg-gray-700 p-4 items-center justify-between flex ">
-            <span className="text-white text-4xl">Mapishi Share</span>
-            <Search/>
+            <span className="text-white text-4xl">Recipe-Share</span>
+            <Search search={search} handleSearch={handleSearch} />
             <div>
                 <ul className=" flex gap-4 text-blue-300 text-base ">
                     <NavLink to="/" className="hover:text-blue-800 font-bold" >Home</NavLink>
